@@ -1,0 +1,20 @@
+{
+  "name": "Snooze Cards",
+  "details": "This power-up will allow you to hide Trello cards for a set amount of time then return to your list.",
+  "icon": {
+    "url": "./images/logo.png"
+  },
+  "author": "Nick Woodhams",
+  "capabilities": [
+    "board-buttons",
+    "card-buttons",
+    "callback",
+    "card-badges",
+    "card-detail-badges"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}
